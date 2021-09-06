@@ -1,0 +1,93 @@
+:root{
+    --color-dark: #1b1b1b;
+    --color-light: #ffffff;
+    --color-gold: #c7b8a5;
+
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  letter-spacing: .05rem;
+}
+.fondo{
+  height: 53.2rem;
+
+  background-image: url("fondo2.jpg");
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.lead-xl{
+  font-size: 1.75rem;
+}
+
+.nav-link{
+  margin-right: 2rem;
+}
+
+.sideways{
+  writing-mode:vertical-lr;
+  display: block;
+  margin: 3.5rem 0;
+  transform: rotate(-180deg);
+}
+
+.logo-1{
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar{
+  min-height: 5rem;
+
+}
+
+.title{
+  position: relative;
+  top: 190px;
+  width: 400px;
+  height: 200px;
+
+  border: 3px solid #E4E429;
+}
+.portafolio{
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 1000;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.kevin{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 1000;
+  margin-left: 130px;
+  margin-top: 20px;
+
+}
+.first {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+}
+
+.border-right{
+  border-right: 1px solid rgba(256,256,256, .1) !important;
+}
+
+.col-lg-11{
+  width: 50% !important;
+}
+.backgeneral{
+  background-color: #000;
+}
+.fanlogos-png{
+  margin-bottom: 1rem ;
+  margin-right: 1rem;
+  transform: rotate(90deg);
+  width: 2rem;
+  height: 2rem:
+}
