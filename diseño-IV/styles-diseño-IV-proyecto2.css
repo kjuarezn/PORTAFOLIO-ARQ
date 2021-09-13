@@ -1,0 +1,603 @@
+* {
+  box-sizing: border-box;
+}
+body {
+   overflow-x: hidden;
+}
+
+.contenido::after {
+  content: "";
+  clear: both;
+  display: table;
+/* Contenido*/
+}
+.contenido{
+background-image: url("proyecto2-diseñoI.jpg");
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.back-img{
+
+}
+
+.text-color{
+  color: #fff;
+}
+
+/* Termina Contenido*/
+
+[class*="col-"] {
+  float: left;
+  padding: 1px;
+}
+.box{
+  display: block;
+
+  margin-left: 3%;
+  text-align: center;
+  padding: 5px;
+  border: 3px solid #E4E429;
+}
+
+}
+.portafolio{
+  margin-top: 2px;
+}
+
+
+.header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200px;
+  background-color: #1b1b1b;
+
+  padding: 15px;
+  letter-spacing: .1rem;
+}
+.nav-link{
+
+  margin-left: 2rem;
+}
+
+
+
+/* Menu Lateral*/
+.sideways{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  writing-mode:vertical-lr;
+  display: block;
+  margin: 3.5rem 0;
+  transform: rotate(-180deg);
+}
+
+
+
+.menu  {
+
+  padding: 8px;
+
+  margin-top: 5px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.fanlogos-png{
+  margin-bottom: .5rem ;
+  margin-right: .1rem;
+  transform: rotate(90deg);
+  width: 2rem;
+  height: 2rem:
+}
+
+/* Termina Menu Lateral*/
+
+/* Comienza Titulos de proyectos*/
+
+.box-proyectos{
+
+  width: 80%;
+
+  display: block;
+  margin-left: 12%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1px;
+  border: 3px solid #E4E429;
+  border-radius: 15px;
+}
+.img-proyecto{
+  border-radius: 15px ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Termina Titulos de proyectos*/
+
+/* Comienza descripcion proyectos*/
+
+.box-descripcion{
+
+  width: 93%;
+
+  display: block;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1px;
+
+
+}
+
+#img-descripcion{
+  width:5rem;
+
+
+}
+
+
+/* Termina descripcion proyectos*/
+
+
+.footer {
+  background-color: #1b1b1b;
+  color: #ffffff;
+
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+/* For mobile phones: */
+
+[class*="menu-lat"] {
+  width: 15%;
+}
+
+[class*="menu"] {
+  padding:0, 5px, 0, 0;
+}
+
+
+
+}
+[class*="titulo-diseño"] {
+  font-size: 20px;
+}
+[class*="descripcion-parrafo"] {
+  margin: 15px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+  /* IMAGENES VISTA CARROUSEL: */
+  /* IMAGENES VISTA CARROUSEL: */
+
+
+
+  /* Slideshow container */
+  .slideshow-container {
+
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: static;
+    top: 120%;
+    bottom: 8px;
+    height: 50px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+
+
+
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* TERMINA IMAGENES VISTA CARROUSEL: */
+
+video {
+  width: 90%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+  .box{
+    display: block;
+    margin-left: 30%;
+    margin-top: 4%;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid #E4E429;
+  }
+
+  .portafolio{
+    text-size:2px;
+  }
+  .titulo-diseño{
+    font-size:25px;
+  }
+  .box-proyectos{
+
+    display: block;
+    width: 23%;
+    margin-left: 40%;
+    margin-top: 3%;
+    text-align: center;
+    padding: 1px;
+    border: 3px solid #E4E429;
+}
+.posicion-comp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.box-descripcion{
+
+  width: 93%;
+
+  display: block;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1px;
+
+
+}
+
+.fondo-descripcion{
+  background-image: url("proyecto2-diseñoIV.jpg");
+  height: 720px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-sistemasconstructivos{
+  padding: 0;
+  background-color: #3F7B70;
+  height: 520px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-renders{
+  padding: 50px 100px 10px 100px;
+  background-color: #D1EECC;
+  height: 700px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-video{
+  padding: 70px 100px 10px 100px;
+  background-color: #CEE5D0;
+  height: 500px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.texto-recorrido{
+  padding: 30px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.puntos{
+  margin-left: 30%;
+}
+
+
+
+
+[class*="descripcion-parrafo"] {
+  padding: 15px;
+  margin-top: 2%;
+  width: 40%;
+  font-size: 25px;
+  text-align: justify;
+}
+[class*="img-descripcion"] {
+  transform: rotate(deg);
+  top:500px;
+  padding: 15px;
+  width: 100%;
+
+
+
+
+}
+[class*="imagen-descripcion"] {
+  position:absolute;
+  background-color: #000;
+  border: 1px solid #777;
+  top: 460px;
+  margin-left: 38%;
+  width: 30%;
+  height: 51%;
+}
+
+.imagen-sistemas{
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.titulo-sistemas{
+  margin-top: 0;
+}
+
+.descripcion-sistemas{
+  padding: 40px;
+  margin-top: 5%;
+}
+
+.img-const{
+  padding:30px;
+  position: absolute;
+  align-self:auto;
+
+
+
+}
+
+/* Next & previous buttons */
+.prev-render, .next-render {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding: 16px;
+
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-render {
+  left: 70%;
+  border-radius: 3px 0 0 3px;
+}
+.prev-render {
+  left: 10%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-render:hover, .next-render:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot-render{
+  margin-left: 50%;
+}
+
+.dot-render {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot-render:hover {
+  background-color: #717171;
+}
+
+.dot-cont {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot-cont:hover {
+  background-color: #717171;
+}
+
+
+
+.text {
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: static;
+  top: 120%;
+  bottom: 8px;
+  height: 50px;
+  width: 100%;
+}
+.fondo-texto{
+  height: 25%;
+  background-color: #000;
+}
+
+.recorrido-video {
+  position: relative;
+  margin-left: 8%;
+
+
+  width: 200%;
+  height: auto;
+}
+
+.footer {
+  margin-bottom:0 ;
+  background-color: #1b1b1b;
+  height: 100px;
+  color: #ffffff;}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 350px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 50px 0 25px;
+  float: left;
+  width: 50%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
