@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+   overflow-x: hidden;
+}
 
 .contenido::after {
   content: "";
@@ -9,16 +12,13 @@
 /* Contenido*/
 }
 .contenido{
-
+background-image: url("proyecto2-diseñoI.jpg");
   background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
 }
 .back-img{
-  background-image: url("D:/Arquitectura/Arquitectura/2021/Semestre 2/Proyecto de Graduación/PORTFOLIO_California_PREMIUM/Pagina Web Portafolio/Prueba2/diseño-II/fondo-diseñoII.jpg");
-  background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center;
+
 }
 
 .text-color{
@@ -39,8 +39,7 @@
   padding: 5px;
   border: 3px solid #E4E429;
 }
-.color-fondo{
-  background: rgba(0, 0, 0, 0.4);
+
 }
 .portafolio{
   margin-top: 2px;
@@ -59,7 +58,10 @@
 
   margin-left: 2rem;
 }
+.bg-dark{
+  background-color: #1b1b1b !important ;
 
+}
 
 
 /* Menu Lateral*/
@@ -77,7 +79,7 @@
 .menu  {
 
   padding: 8px;
-  margin-bottom: 5px;
+
   margin-top: 5px;
   background-color: #1b1b1b;
   color: #ffffff;
@@ -95,6 +97,14 @@
 /* Termina Menu Lateral*/
 
 /* Comienza Titulos de proyectos*/
+
+.titulo-proyecto{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: rgba(255,255,255,.5);
+  padding: 1rem;
+  color:black;
+}
 
 .box-proyectos{
 
@@ -160,9 +170,7 @@
 [class*="menu"] {
   padding:0, 5px, 0, 0;
 }
-[class*="mobile-content"] {
-  width: 79%;
-  margin-top: 20%;
+
 
 
 }
@@ -257,15 +265,7 @@
   /* Fading animation */
 
 
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
@@ -353,10 +353,73 @@ video {
 
 }
 
+.fondo-descripcion{
+  background-image: url("fondo-diseñoII.jpg");
+  height: 720px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-sistemasconstructivos{
+  padding: 0;
+  background-color: #222831;
+  height: 520px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-renders{
+  padding: 50px 100px 10px 100px;
+  background-color: #D1EECC;
+  height: 700px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.fondo-video{
+  padding: 70px 100px 10px 100px;
+  background-color: #CEE5D0;
+  height: 500px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+
+.texto-recorrido{
+  padding: 30px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.puntos{
+  margin-left: 30%;
+}
+
+
+
 
 [class*="descripcion-parrafo"] {
   padding: 15px;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 40%;
   font-size: 25px;
   text-align: justify;
@@ -368,6 +431,8 @@ video {
   width: 100%;
 
 
+
+
 }
 [class*="imagen-descripcion"] {
   position:absolute;
@@ -375,11 +440,99 @@ video {
   border: 1px solid #777;
   top: 460px;
   margin-left: 38%;
-  width: 43%;
+  width: 30%;
   height: 51%;
-  font-size: 25px;
-  text-align: justify;
 }
+
+.imagen-sistemas{
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.titulo-sistemas{
+  color:white;
+  margin-top: 0;
+}
+
+.descripcion-sistemas{
+  padding: 40px;
+  margin-top: 5%;
+}
+
+.img-const{
+  padding:30px;
+  position: absolute;
+  align-self:auto;
+
+
+
+}
+
+/* Next & previous buttons */
+.prev-render, .next-render {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding: 16px;
+
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-render {
+  left: 70%;
+  border-radius: 3px 0 0 3px;
+}
+.prev-render {
+  left: 10%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-render:hover, .next-render:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot-render{
+  margin-left: 50%;
+}
+
+.dot-render {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot-render:hover {
+  background-color: #717171;
+}
+
+.dot-cont {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot-cont:hover {
+  background-color: #717171;
+}
+
+
 
 .text {
   color: #fff;
@@ -407,6 +560,56 @@ video {
 }
 
 .footer {
+  margin-bottom:0 ;
   background-color: #1b1b1b;
   height: 100px;
-  color: #ffffff;
+  color: #ffffff;}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 350px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 50px 0 25px;
+  float: left;
+  width: 50%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
