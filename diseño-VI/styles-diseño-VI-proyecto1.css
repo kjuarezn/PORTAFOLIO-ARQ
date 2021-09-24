@@ -25,6 +25,10 @@ background-image: url("proyecto2-diseñoI.jpg");
   color: #fff;
 }
 
+.bg-dark{
+  background-color: #1b1b1b !important ;
+
+}
 /* Termina Contenido*/
 
 [class*="col-"] {
@@ -94,6 +98,18 @@ background-image: url("proyecto2-diseñoI.jpg");
 /* Termina Menu Lateral*/
 
 /* Comienza Titulos de proyectos*/
+.fondo-titulo{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: rgba(255,255,255,.5);
+  padding: 2rem;
+  color:black;
+  border-radius: 25px;
+  text-align: justify;
+  font-size:  1.3rem;
+
+
+}
 
 .box-proyectos{
 
@@ -343,7 +359,7 @@ video {
 }
 
 .fondo-descripcion{
-  background-image: url("proyecto1-diseñoVI.jpg");
+  background-image: url("menu-diseñoIV/fondo-proyecto1.jpg");
   height: 720px;
     background-size: cover;
       background-repeat:no-repeat;
@@ -360,9 +376,9 @@ video {
 }
 
 .fondo-renders{
-  padding: 50px 100px 10px 100px;
+  padding: 50px 100px 50px 100px;
   background-color: #D1EECC;
-  height: 700px;
+  height: 100%;
     background-size: cover;
       background-repeat:no-repeat;
       background-position: center center;
