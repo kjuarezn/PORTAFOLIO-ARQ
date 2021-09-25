@@ -387,12 +387,15 @@ video {
 }
 
 .fondo-video{
-  padding: 70px 200px 50px 100px;
-  background-color: #FEFFDE;
-  height: 100%;
-    background-size: cover;
-      background-repeat:no-repeat;
-      background-position: center center;
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  min-width: 112%;
+  min-height: 80%;
+  z-index: -1;
+  background-color: #D1EECC;
+
 }
 
 .fondo-video1{
