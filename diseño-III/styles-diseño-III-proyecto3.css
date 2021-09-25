@@ -437,11 +437,8 @@ video {
   top:500px;
   padding: 15px;
   width: 100%;
-
-
-
-
 }
+
 [class*="imagen-descripcion"] {
   position:absolute;
   background-color: #000;
@@ -582,7 +579,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: 350px;
+  height: 500px;
 }
 
 div.desc {
@@ -595,9 +592,9 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 50px 0 25px;
+  padding: 0 20% 0 25%;
   float: left;
-  width: 50%;
+
 
 }
 
