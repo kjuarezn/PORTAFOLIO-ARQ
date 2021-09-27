@@ -197,3 +197,8 @@ body {
   margin-right: auto;
   width: 90%;
 }
+@media only screen and (min-width: 1200px){
+  .contenido{
+    height:988px;
+  }
+}
